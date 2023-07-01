@@ -65,11 +65,11 @@ class Ball {
         ellipse(this.position.x, this.position.y, this.radius * 2, this.radius * 2);
         fill(999);
         // text(i, this.position.x, this.position.y - 20);
-        text("eating cd: " + round(this.coolDown), this.position.x, this.position.y - 20);
-        text("mass: " + round(pow(this.radius, 2)), this.position.x, this.position.y);
-        // text(round(this.coolDown), this.position.x, this.position.y + 20);
-        text(round(this.willToPopulate * 70), this.position.x, this.position.y + 20);
-        text(this.deathTimer, this.position.x, this.position.y + 40);
+        // text("eating cd: " + round(this.coolDown), this.position.x, this.position.y - 20);
+        // text("mass: " + round(pow(this.radius, 2)), this.position.x, this.position.y);
+        // // text(round(this.coolDown), this.position.x, this.position.y + 20);
+        // text(round(this.willToPopulate * 70), this.position.x, this.position.y + 20);
+        // text(this.deathTimer, this.position.x, this.position.y + 40);
 
 
     }
